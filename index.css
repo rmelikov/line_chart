@@ -1,0 +1,39 @@
+.axis path{
+    stroke: #f5f5f5 !important;
+}
+
+.axis line{
+    stroke: #797979 !important;
+}
+
+.y.axis,.x.axis text{
+    stroke: #bebebe !important;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/*svg {*/
+/*    border:1px solid black*/
+/*}*/
+
+.y.label,.x.label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.y.axis .tick line {
+    stroke: #f2f2f2 !important;
+}
+
+path.chart.line {
+    stroke-width: 10px;
+    stroke-linecap: round;
+}
